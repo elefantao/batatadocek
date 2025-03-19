@@ -40,4 +40,5 @@ header{
 .para{
     width: 40%;
     text-align: center;
+    display: flex;
 }
