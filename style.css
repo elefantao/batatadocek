@@ -41,11 +41,6 @@ header{
 .para{
     
     text-align: center;
-    display: flex;
-    align-items: center;
-    left: 30px;
-    -ms-flex-align: center;
-    inline-size: 50%;
     
     
 }
