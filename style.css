@@ -58,37 +58,7 @@
     .Atividades{
         justify-content: right;
     }
-    .lista-vertical-2{
-        display: none;
-        position: absolute;
-        background-color: var(--roxo-claro);
-        box-shadow: 0 2px 5px var(--marinho);
-        min-width: 190px;
-        z-index: 1;
-        left: 1rem;
-        top: 100%;
-    }
-    .lista-vertical b{
-        color: var(--preto);
-        padding: 0.75rem 1rem;
-        text-decoration: none;
-        font-size: 2rem;
-        display: block;
-        text-align: center;
-    }
-    .lista-vertical b:hover{
-        background-color: var(--amarelo-claro);
-    }
-    #menu-toggle:checked ~ .lista-vertical-2{
-        display: block;
-    }
-    #menu-toggle:checked + .botao-enem{
-        background-color: var(--preto);
-    }
-    .Atividades{
-        justify-content: right;
-    }
-    
+
 
 
 
