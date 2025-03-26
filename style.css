@@ -30,7 +30,7 @@
     }
     .lista-vertical-1{
         display: none;
-        position: absolute;
+        position: relative;
         background-color: var(--roxo-claro);
         box-shadow: 0 2px 5px var(--marinho);
         min-width: 190px;
