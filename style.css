@@ -28,7 +28,36 @@
     #menu-toggle{
         display: none;
     }
-    
+    .lista-vertical{
+        display: none;
+        position: absolute;
+        background-color: var(--roxo-claro);
+        box-shadow: 0 2px 5px var(--marinho);
+        min-width: 190px;
+        z-index: 1;
+        left: 1rem;
+        top: 100%;
+    }
+    .lista-vertical a{
+        color: var(--preto);
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+    }
+    .lista-vertical a:hover{
+        background-color: var(--amarelo-claro);
+    }
+    #menu-toggle:checked ~ .lista-vertical{
+        display: block;
+    }
+    #menu-toggle:checked + .botao-disciplinas{
+        background-color: var(--preto);
+    }
+    .Atividades{
+        justify-content: right;
+    }
 #prod{
 display: grid;
 grid-template-columns: 50% 50%;
