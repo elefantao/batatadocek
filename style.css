@@ -88,9 +88,14 @@
     .Atividades{
         justify-content: right;
     }
-
-
-
+    
+    .menu-disciplinas{
+display: flexbox;
+    }   
+ 
+    .menu-enem{
+        display: flexbox;
+    }
 
 
 
